@@ -1,0 +1,36 @@
+import React from 'react';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import icon from '../../assets/icon/p.png';
+import './Navbarr.css';
+
+const Navbarr = () => {
+    return (
+        <div>
+
+
+            <Navbar sticky="top" collapseOnSelect expand="lg" className=" navBar" >
+                <Container className='fw-bold'>
+                    <Navbar.Brand href="#home">
+                        <div className='d-flex align-items-center'>
+                            <img src={icon} className="rounded navIcon" alt="..." />
+                            <span  className=' navIconText'>Hadiza</span>
+                        </div>
+                    </Navbar.Brand>
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Collapse id="responsive-navbar-nav">
+                        <Nav className="ms-auto navList">
+                            <Nav.Link href="#about" className='text-white '>About</Nav.Link>
+                            <Nav.Link href="#service" className='text-white'>Service</Nav.Link>
+                            <Nav.Link href="#portfolio" className='text-white'>Portfolio</Nav.Link>
+                            <button type="button" className='btn btn-outline-primary fw-bold'>Contact Me</button>
+                        </Nav>
+                    </Navbar.Collapse>
+                </Container>
+            </Navbar>
+        </div>
+    );
+};
+
+export default Navbarr;
