@@ -1,0 +1,7 @@
+a{
+    text-decoration: none;
+}
+li a:hover{
+    cursor: pointer;
+    color: blue !important;
+}
