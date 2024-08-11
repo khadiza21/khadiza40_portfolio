@@ -8,10 +8,8 @@ import './Navbarr.css';
 const Navbarr = () => {
     return (
         <div>
-
-
             <Navbar sticky="top" collapseOnSelect expand="lg" className=" navBar" >
-                <Container className='fw-bold'>
+                <Container className='fw-bold px-5'>
                     <Navbar.Brand href="#home">
                         <div className='d-flex align-items-center'>
                             <img src={icon} className="rounded navIcon" alt="..." />
@@ -23,8 +21,9 @@ const Navbarr = () => {
                         <Nav className="ms-auto navList">
                             <Nav.Link href="#about" className='text-white '>About</Nav.Link>
                             <Nav.Link href="#service" className='text-white'>Service</Nav.Link>
+                            <Nav.Link href="#portfolio" className='text-white'>Portfolio</Nav.Link>                         
+                            <button  className='btn btn-outline-primary fw-bold px-5'>Contact Me</button>
                             <Nav.Link href="#portfolio" className='text-white'>Portfolio</Nav.Link>
-                            <button type="button" className='btn btn-outline-primary fw-bold'>Contact Me</button>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
