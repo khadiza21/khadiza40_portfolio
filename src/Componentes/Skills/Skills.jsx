@@ -94,7 +94,7 @@ const Skills = () => {
     return (
         <div>
 
-            <div className='p-0 my-5 overflow-hidden' id='skill' style={{ backgroundColor: "black" }}> 
+            <div className='p-0 overflow-hidden'  style={{ backgroundColor: "black" }}> 
                  <Container>
                 <div className=' py-5'>
                     <h2 className="display-5 pb-4 text-primary text-center" style={{ fontWeight: "600" }}>

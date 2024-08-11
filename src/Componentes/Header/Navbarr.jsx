@@ -22,8 +22,7 @@ const Navbarr = () => {
                             <Nav.Link href="#about" className='text-white '>About</Nav.Link>
                             <Nav.Link href="#service" className='text-white'>Service</Nav.Link>
                             <Nav.Link href="#portfolio" className='text-white'>Portfolio</Nav.Link>                         
-                            <button  className='btn btn-outline-primary fw-bold px-5'>Contact Me</button>
-                            <Nav.Link href="#portfolio" className='text-white'>Portfolio</Nav.Link>
+                            <button  className='btn btn-outline-primary fw-bold '>Contact Me</button>                          
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
