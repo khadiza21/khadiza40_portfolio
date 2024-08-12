@@ -7,6 +7,7 @@ import Footer from '../Footer/Footer';
 import Portfolio from '../Portfolio/Portfolio';
 import Overview from '../Overview/Overview';
 import Choose from '../Choose/Choose';
+import Contact from '../Contact/Contact';
 
 const Home = () => {
     return (
@@ -20,6 +21,7 @@ const Home = () => {
         <Overview></Overview>
         <Portfolio></Portfolio>
         <Choose></Choose>
+        <Contact></Contact>
         <Footer></Footer>
       
         </div>

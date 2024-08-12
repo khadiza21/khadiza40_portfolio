@@ -6,7 +6,7 @@ const Footer = () => {
 
     return (
         <div className=''>
-            <footer className="container-fluid text-light py-5" style={{ backgroundColor: "black" }}>
+            <footer className="container-fluid text-light py-5" style={{ backgroundColor: '#111111' }}>
                 <div className="container p-4">
                     <section className="my-3 d-flex flex-wrap gap-4">
                         <a
