@@ -31,7 +31,7 @@ const Contact = () => {
     return (
         <div>
 
-            <div className="m-0 p-0" style={{ backgroundColor: "#000000" }}>
+            <div id='contact' className="m-0 p-0" style={{ backgroundColor: "#000000" }}>
                 <Container className='py-5'>
                     <h1 className=" fw-bold text-center text-white display-4 mt-5">GET In <span className='text-primary'>Touch!</span></h1>
 

@@ -20,9 +20,9 @@ const Navbarr = () => {
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ms-auto navList">
                             <Nav.Link href="#about" className='text-white '>About</Nav.Link>
-                            <Nav.Link href="#service" className='text-white'>Service</Nav.Link>
+                            <Nav.Link href="#skills" className='text-white'>Skills</Nav.Link>
                             <Nav.Link href="#portfolio" className='text-white'>Portfolio</Nav.Link>                         
-                            <button  className='btn btn-outline-primary fw-bold '>Contact Me</button>                          
+                            <a href="https://www.linkedin.com/in/bb-khadiza/" target='_blank'><button  className='btn btn-outline-primary fw-bold '>Contact Me</button>   </a>                        
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

@@ -10,7 +10,7 @@ const About = () => {
 
     return (
         <div >
-            <div className='overflow-hidden p-0 m-0 ' style={{ backgroundColor: "#111111" }}>
+            <div id='about' className='overflow-hidden p-0 m-0 ' style={{ backgroundColor: "#111111" }}>
                 < Container>
                     <div className=' py-5'>
                         <h2 className="display-5 pb-4 text-primary text-center" style={{ fontWeight: "600" }}>

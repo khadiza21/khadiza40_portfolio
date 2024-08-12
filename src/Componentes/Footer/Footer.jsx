@@ -31,22 +31,23 @@ const Footer = () => {
                                 <h5 className="text-uppercase text-primary fw-bold">Quick as</h5>
                                 <ul className="list-unstyled my-3">
                                     <li className='mb-2'>
-                                        <a className="text-light" href="home">
+                                        <a className="text-light" href="#home">
                                             Home
                                         </a>
                                     </li>
                                     <li className='mb-2'>
-                                        <a className="text-light" to="about">
+                                        <a className="text-light" href="#about">
                                             About
                                         </a>
                                     </li>
+                                    
                                     <li className='mb-2'>
-                                        <a className="text-light" to="service">
-                                            Services
+                                        <a className="text-light" href="#skills">
+                                            Skills
                                         </a>
                                     </li>
                                     <li className='mb-2'>
-                                        <a className="text-light" to="portfolio">
+                                        <a className="text-light" href="#portfolio">
                                             Portfolio
                                         </a>
                                     </li>
