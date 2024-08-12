@@ -1,7 +1,9 @@
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-li a:hover{
-    cursor: pointer;
-    color: blue !important;
+
+.customHover:hover {
+  cursor: pointer;
+  color: rgb(27, 57, 224) !important;
+  transition: background-color 0.3s ease;
 }

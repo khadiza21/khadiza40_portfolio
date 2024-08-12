@@ -1,5 +1,4 @@
 import React from 'react';
-
 import "./Footer.css"
 const Footer = () => {
     const currentYear = new Date().getFullYear();
@@ -9,42 +8,22 @@ const Footer = () => {
             <footer className="container-fluid text-light py-5" style={{ backgroundColor: '#111111' }}>
                 <div className="container p-4">
                     <section className="my-3 d-flex flex-wrap gap-4">
-                        <a
 
-                            className=" btn-floating fs-5"
-                            href=""
-                            role="button"
-                        >
-                            aedIn
-                        </a>
-                        <a
-
-                            className=" btn-floating fs-5"
-                            href="https://www.facebook.com"
-                            target='blank'
-                            role="button"
-                        >
-                            facebook
-                        </a>
-                        <a
-
-                            className=" btn-floating fs-5"
-                            href="https://wa.me/+8801816260539?text=Hey !/nHow can i help you?" target='blank'
-                            role="button"
-                        >
-                            WhatsApp
-                        </a>
+                        <a href="https://www.linkedin.com/in/bb-khadiza/" target='_blank' className='text-light fs-3  customHover'>  <i className="fa fa-linkedin-square" aria-hidden="true"></i> </a>
 
 
+                        <a href="https://github.com/khadiza21" target='_blank' className='text-light fs-3  customHover'>
+                            <i className="fa fa-github-square" aria-hidden="true"></i></a>
 
-                        <a
+                        <a href="https://wa.me/+8801816260539?text=Hey Sir!/nHow can i help you?" target='_blank' className='text-light fs-3  customHover'><i className="fa fa-whatsapp" aria-hidden="true"></i> </a>
 
-                            className=" btn-floating fs-5"
-                            href="mailto:sharjeelakhtar245@gmail.com" target="_blank"
-                            role="button"
-                        >
-                            mail
-                        </a>
+                        <a href="https://t.me/+8801816260539?text=Hey Sir!/nHow can i help you?" target='_blank' className='text-light fs-3  customHover'> <i className="fa fa-telegram" aria-hidden="true"></i></a>
+
+                        <a href="https://www.facebook.com/profile.php?id=100075783558238" target='_blank' className='text-light fs-3  customHover'> <i className="fa fa-facebook-official" aria-hidden="true"></i></a>
+
+                        <a href="mailto:bibikhadiza474@gmail.com" target="_blank" className='text-light fs-3  customHover'>
+                            <i className="fa fa-envelope" aria-hidden="true"></i></a>
+
                     </section>
                     <section className="">
                         <div className="row">
@@ -93,11 +72,7 @@ const Footer = () => {
                                             bibikhadiza474@gmail.com
                                         </a>
                                     </li>
-                                    <li className='mb-2'>
-                                        <a className="text-light" href="Phone: +">
-                                            +
-                                        </a>
-                                    </li>
+
                                 </ul>
                             </div>
                         </div>

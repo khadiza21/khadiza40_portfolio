@@ -2,17 +2,15 @@ import React from 'react';
 import about from '../../assets/about.gif'
 import './About.css'
 import { Container } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const About = () => {
 
-   
+
 
 
     return (
         <div >
-
             <div className='overflow-hidden p-0 m-0 ' style={{ backgroundColor: "#111111" }}>
-           
-
                 < Container>
                     <div className=' py-5'>
                         <h2 className="display-5 pb-4 text-primary text-center" style={{ fontWeight: "600" }}>
@@ -42,23 +40,38 @@ const About = () => {
                                     web applications. I specialize in building full-stack solutions that are both scalable and user-friendly.
                                     With a solid foundation in <span className='text-primary'>(MongoDB, Express.js, React, and Node.js).</span>  I bring innovative ideas to life on the web.
                                 </p>
-                             
-                                <div className='d-flex align-items-center flex-wrap'>
-                                    <button type='btn btn1 mx-2'>LinkedIn</button>
 
-                                    <a href="https://wa.me/+8801816260539?text=Hey Sir!/nHow can i help you?" target='blank'>
-                                        <button type='btn btn1 mx-2 '>WhatsApp</button>
+                                <div className='d-flex align-items-center flex-wrap'>
+
+
+                                    <a href="https://www.linkedin.com/in/bb-khadiza/" target='blank'>  <button type='btn btn1 mx-2'><i class="fa fa-linkedin-square" aria-hidden="true"></i></button>  </a>
+
+                                    <a href="https://github.com/khadiza21" target='_blank'>
+                                        <button type='btn btn1 mx-2 '><i class="fa fa-github-square" aria-hidden="true"></i></button>
+                                    </a>
+                                    <a href="https://wa.me/+8801816260539?text=Hey Sir!/nHow can i help you?" target='_blank'>
+                                        <button type='btn btn1 mx-2 '><i class="fa fa-whatsapp" aria-hidden="true"></i></button>
+                                    </a>
+                                    <a href="https://t.me/+8801816260539?text=Hey Sir!/nHow can i help you?" target='_blank'>
+                                        <button type='btn btn1 mx-2 '><i class="fa fa-telegram" aria-hidden="true"></i></button>
                                     </a>
 
-                                    <a href="https://www.facebook.com" target='blank'>
-                                        <button type='btn btn1 mx-2'>Facebook</button></a>
+                                    <a href="https://www.facebook.com/profile.php?id=100075783558238" target='_blank'>
+                                        <button type='btn btn1 mx-2'><i class="fa fa-facebook-official" aria-hidden="true"></i></button></a>
 
                                     <a href="mailto:bibikhadiza474@gmail.com" target="_blank">
-                                        <button type='btn btn1 mx-2'>Mail</button></a>
+                                        <button type='btn btn1 mx-2'><i class="fa fa-envelope" aria-hidden="true"></i></button></a>
 
                                 </div>
-                                <a className="btn btn-outline-primary mt-3" href="{resume}" download role="button" style={{ width: "145px" }}>
-                                    Resume
+                                <a
+                                    className="d-flex align-items-center btn btn-outline-primary fw-bold mt-3"
+                                    // href={resume}
+                                    download
+                                    role="button"
+                                    style={{ width: "145px" }}
+                                >
+                                    <span className="me-2">Resume</span>
+                                    <i class="fa fa-id-card" aria-hidden="true"></i>
                                 </a>
                             </div>
                         </div>

@@ -55,7 +55,8 @@ const Contact = () => {
                             </div>
 
                             <div className="mt-4 text-center">
-                                <button className="btn btn-primary rounded-5 py-3  fw-bold" type="submit">Send Message</button>
+
+                                <button className="btn btn-primary rounded-5 py-3  fw-bold" type="submit"> <span>Send Message</span> <i class="fa fa-paper-plane" aria-hidden="true"></i> </button>
                             </div>
                         </form>
                     </div></Container>

@@ -12,7 +12,7 @@ const Choose = () => {
                         <div className="col-12 col-lg-5 my-3">
                             <div className="row">
                                 <div className="col-12 col-xl-11">
-                                    <h3 className="fs-6 text-primary mb-3 mb-xl-4 text-uppercase">
+                                    <h3 className="fs-8 text-primary mb-3 mb-xl-4 text-uppercase">
                                         What I Do?
                                     </h3>
                                     <h2 className="display-5 mb-3 mb-xl-4 text-light">
@@ -26,8 +26,8 @@ const Choose = () => {
                                         innovation, and unparalleled support. Your success is our
                                         priority.
                                     </p>
-                                    <a className="btn bsb-btn-2xl btn-primary ">
-                                        Details
+                                    <a className="btn bsb-btn-2xl btn-primary " href='https://www.linkedin.com/in/bb-khadiza/' target='_blank'>
+                                        <span>Details </span><i class="fa fa-info-circle" aria-hidden="true"></i>
                                     </a>
                                 </div>
                             </div>
@@ -48,7 +48,9 @@ const Choose = () => {
 
                                                 className="fw-bold text-decoration-none link-primary text-primary"
                                             >
-                                                Learn More
+                                             
+                                             <a href="https://www.linkedin.com/in/bb-khadiza/" target='_blank'> <span> Learn More </span><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                                               
 
                                             </a>
                                         </div>
@@ -68,7 +70,7 @@ const Choose = () => {
 
                                                 className="fw-bold text-decoration-none link-primary text-primary"
                                             >
-                                                Learn More
+                                                  <a href="https://www.linkedin.com/in/bb-khadiza/" target='_blank'> <span> Learn More </span><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
 
                                             </a>
                                         </div>
@@ -87,7 +89,7 @@ const Choose = () => {
 
                                                 className="fw-bold text-decoration-none link-primary text-primary"
                                             >
-                                                Learn More
+                                                  <a href="https://www.linkedin.com/in/bb-khadiza/" target='_blank'> <span> Learn More </span><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
 
                                             </a>
                                         </div>
@@ -106,7 +108,7 @@ const Choose = () => {
 
                                                 className="fw-bold text-decoration-none link-primary text-primary"
                                             >
-                                                Learn More
+                                                  <a href="https://www.linkedin.com/in/bb-khadiza/" target='_blank'> <span> Learn More </span><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
 
                                             </a>
                                         </div>
