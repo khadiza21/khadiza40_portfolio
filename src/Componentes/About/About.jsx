@@ -11,6 +11,8 @@ const About = () => {
         <div >
 
             <div className='overflow-hidden p-0 m-0 ' style={{ backgroundColor: "#111111" }}>
+           
+
                 < Container>
                     <div className=' py-5'>
                         <h2 className="display-5 pb-4 text-primary text-center" style={{ fontWeight: "600" }}>
@@ -22,7 +24,7 @@ const About = () => {
                                     <img src={about} className='img-fluid' alt="" />
                                 </div>
                             </div>
-                            <div className='col-lg-5 col-md-5 col-sm-11 mx-5 '>
+                            <div className='col-lg-5 col-md-5 col-sm-11 mx-3 '>
                                 <p>
                                     <span className='text-primary about_name'>Name:</span> <span className='text-light about_detail'>Bibi Khadiza </span>
                                 </p>
@@ -35,7 +37,7 @@ const About = () => {
                                 <p>
                                     <span className='text-primary about_name'>Experience:</span> <span className='text-light about_detail'>1+ Years</span>
                                 </p>
-                                <p className='text-white text-justify'>
+                                <p className='text-white text-justify '>
                                     Hello! I'm Bibi Khadiza, a passionate MERN Stack web developer with a keen eye for creating seamless and efficient
                                     web applications. I specialize in building full-stack solutions that are both scalable and user-friendly.
                                     With a solid foundation in <span className='text-primary'>(MongoDB, Express.js, React, and Node.js).</span>  I bring innovative ideas to life on the web.
