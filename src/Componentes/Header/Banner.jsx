@@ -20,7 +20,7 @@ const Banner = () => {
 
                         <a
                             className="d-flex align-items-center btn btn-outline-primary fw-bold"
-                            // href={resume}
+                            href="https://drive.google.com/file/d/1ewvxbhlNxy-HqvfFwMw8PfAfYheBr-O7/view?usp=sharing" to="_blank"
                             download
                             role="button"
                             style={{ width: "145px" }}

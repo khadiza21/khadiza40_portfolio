@@ -2,11 +2,11 @@ import React from 'react';
 import about from '../../assets/about.gif'
 import './About.css'
 import { Container } from 'react-bootstrap';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 const About = () => {
 
-
-
+    const resumeLink = "https://drive.google.com/uc?export=download&id=1ewvxbhlNxy-HqvfFwMw8PfAfYheBr-O7"; 
+    
 
     return (
         <div >
@@ -65,13 +65,13 @@ const About = () => {
                                 </div>
                                 <a
                                     className="d-flex align-items-center btn btn-outline-primary fw-bold mt-3"
-                                    // href={resume}
-                                    download
+                                    href={resumeLink}
+                                    download="resume_khadiza.pdf"
                                     role="button"
                                     style={{ width: "145px" }}
                                 >
                                     <span className="me-2">Resume</span>
-                                    <i class="fa fa-id-card" aria-hidden="true"></i>
+                                    <i class="fa fa-cloud-download" aria-hidden="true"></i>
                                 </a>
                             </div>
                         </div>
