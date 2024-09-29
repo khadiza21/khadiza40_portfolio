@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import './Skills.css';
@@ -94,26 +94,26 @@ const Skills = () => {
     return (
         <div>
 
-            <div id='skills' className='p-0 overflow-hidden'  style={{ backgroundColor: "black" }}> 
-                 <Container>
-                <div className=' py-5'>
-                    <h2 className="display-5 pb-4 text-primary text-center" style={{ fontWeight: "600" }}>
-                        <span className='text-light'>My</span> Skills
-                    </h2>
-                    <div className='row mx-3'>
-                        {progress.map((data, index) => {
-                            return <div className='mx-auto   col-lg-3 col-md-4 col-sm-6  my-5 mx-3 mx-5 ' data-aos={data.aos} key={index}>
-                                <div className='card card1 border-0 border-bottom border-primary shadow-sm'>
-                                    <img src={data.img} alt="" />
-                                <p className='text-light text-center pt-3 m-0'>{data.title}</p>  
-                                </div>
-                              
-                            </div>
-                        })
+            <div id='skills' className='p-0 overflow-hidden' style={{ backgroundColor: "black" }}>
+                <Container className=''>
+                    <div className=' py-5'>
+                        <h2 className="display-5 pb-4 text-primary text-center" style={{ fontWeight: "600" }}>
+                            <span className='text-light'>My</span> Skills
+                        </h2>
+                        <div className='row '>
+                            {progress.map((data, index) => {
+                                return <div className='mx-auto   col-lg-3 col-md-4 col-sm-6  my-5 mx-3 mx-5 ' data-aos={data.aos} key={index}>
+                                    <div className='card card1 border-0 border-bottom border-primary shadow-sm'>
+                                        <img src={data.img} alt="" />
+                                        <p className='text-light text-center pt-3 m-0'>{data.title}</p>
+                                    </div>
 
-                        }
-                    </div>
-                </div></Container>
+                                </div>
+                            })
+
+                            }
+                        </div>
+                    </div></Container>
             </div>
         </div>
     );

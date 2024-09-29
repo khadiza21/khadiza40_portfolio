@@ -1,4 +1,3 @@
-import React from 'react';
 import Navbarr from '../Header/Navbarr';
 import Banner from '../Header/Banner';
 import About from '../About/About';
@@ -8,6 +7,7 @@ import Portfolio from '../Portfolio/Portfolio';
 import Overview from '../Overview/Overview';
 import Choose from '../Choose/Choose';
 import Contact from '../Contact/Contact';
+
 
 const Home = () => {
     return (

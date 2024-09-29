@@ -1,4 +1,3 @@
-import React from 'react';
 import "./Footer.css"
 const Footer = () => {
     const currentYear = new Date().getFullYear();
@@ -6,7 +5,7 @@ const Footer = () => {
     return (
         <div className=''>
             <footer className="container-fluid text-light py-5" style={{ backgroundColor: '#111111' }}>
-                <div className="container p-4">
+                <div className="container py-4 ">
                     <section className="my-3 d-flex flex-wrap gap-4">
 
                         <a href="https://www.linkedin.com/in/bb-khadiza/" target='_blank' className='text-light fs-3  customHover'>  <i className="fa fa-linkedin-square" aria-hidden="true"></i> </a>

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Container } from 'react-bootstrap';
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from 'react-toastify';
@@ -30,14 +30,14 @@ const Contact = () => {
         <div>
 
             <div id='contact' className="m-0 p-0" style={{ backgroundColor: "#000000" }}>
-                <Container className='py-5'>
+                <Container className='py-5  container '>
                     <h1 className="fw-bold text-center text-white display-4 mt-5">
                         GET In <span className='text-primary'>Touch!</span>
                     </h1>
 
-                    <div className="card w-100 shadow-lg">
-                        <form ref={form} onSubmit={sendEmail} className="card-body">
-                            <div className="mb-3">
+                    <div className="card  shadow-lg w-100 px-0 mx-0">
+                        <form ref={form} onSubmit={sendEmail} className="card-body w-100 px-0 mx-0 ">
+                            <div className="mb-3   w-100">
                                 <input
                                     type="text"
                                     placeholder="name"

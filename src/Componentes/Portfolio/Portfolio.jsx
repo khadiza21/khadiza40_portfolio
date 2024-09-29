@@ -1,11 +1,11 @@
 import Aos from 'aos';
-import React, { useEffect, useState } from 'react';
-import portfoliio from '../../assets/portfolio.webp';
+import { useEffect, useState } from 'react';
+import portfoliio from '../../assets/portfolio/portfolio.webp';
 import './Portfolio.css'
 
 const Portfolio = () => {
 
-    const [data, setData] = useState([
+    const [data] = useState([
         {
             img: portfoliio, path: "", Aos: 'slide-right',
             title: " Website"
@@ -30,8 +30,16 @@ const Portfolio = () => {
             img: portfoliio, path: "", aos: 'fade-up',
             title: "Layout"
         },
-       
-       
+        {
+            img: portfoliio, path: "", aos: 'fade-up',
+            title: "Layout"
+        },
+        {
+            img: portfoliio, path: "", aos: 'fade-up',
+            title: "Layout"
+        },
+
+
     ])
 
     useEffect(() => {
@@ -45,39 +53,64 @@ const Portfolio = () => {
 
 
     return (
-        <div>
-            <div id="portfolio" className="container-fluid overflow-hidden" style={{ backgroundColor: "black" }} >
 
-                <div className="container py-5">
-                    <h2 className="display-5 pb-4 text-primary text-center" style={{ fontWeight: "600" }}>
-                        <span className='text-light'>My </span> Portfolio
-                    </h2>
-                   
-                    <div className="row services_col p-4 m-5">
-                        {data.map((item, index) => {
-                            return <div className="col_hover card1 border-0 border-bottom border-primary shadow-sm m-3 pt-2" key={index}
-                                data-aos={item.aos} style={{ width: "350px" }}
-                            >
-                                <a href={item.path} target="blank">
-                                    <div>
-                                        <img src={item.img} className="img-fluid rounded-3" alt="No network" style={{ height: "150px" }} />
+        <div id="portfolio" className="container-fluid overflow-hidden " style={{ backgroundColor: "black" }} >
+
+            <div className="container py-5 ">
+                <h2 className="display-5 pb-4 text-primary text-center" style={{ fontWeight: "600" }}>
+                    <span className='text-light'>My </span> Portfolio
+                </h2>
+
+                <div className="row py-4 w-full">
+                    {data.map((item, index) => {
+                        return (
+                            <div className="col-lg-3 col-md-4 col-sm-6 col-12 mb-4" key={index} data-aos={item.aos}>
+                                <div
+                                    className="my-3 border-0 border-bottom border-primary shadow-sm pt-2"
+                                    style={{ width: "100%" }}>
+
+
+                                    <div className="w-[350px] h-[450px] overflow-hidden">
+                                        <img
+                                            src={item.img}
+                                            alt="No network"
+
+                                            className=" card1 img-fluid rounded-3 "
+                                        />
                                     </div>
-                                </a>
-                                <div className="d-flex justify-content-between mt-1">
-                                    <p className="text-light " style={{ fontWeight: "500" }}>{item.title}</p>
-                                    <a href={item.path} target="blank">
-                                        <p className="text-primary">Demo...</p>
-                                    </a>
+
+
+
+
+
+                                    <div className="d-flex justify-content-between mt-1">
+                                        <p className="text-light" style={{ fontWeight: "500" }}>{item.title}</p>
+                                    </div>
+                                    <div className="my-1">
+                                        <div className="text-light"><h6>Frontend Technology: <span>HTML, CSS, JS</span></h6></div>
+                                        <div className="text-light"><h6>Backend Technology: <span>None</span></h6></div>
+                                    </div>
+                                    <div className="d-flex justify-content-between mt-1">
+                                        <p className="text-light">
+                                            <span>Github: </span>
+                                            <a href={item.path} target="blank" className="underline-offset-1">Client</a>
+                                            <a href={item.path} target="blank" className="underline-offset-1">Server</a>
+                                        </p>
+                                        <a href={item.path} target="blank">
+                                            <p className="text-primary">Live Site</p>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                        })
-
-                        }
-
-                    </div>
+                        )
+                    })}
                 </div>
+
             </div>
+
+
         </div>
+
     );
 };
 

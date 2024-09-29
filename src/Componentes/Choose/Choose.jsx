@@ -1,10 +1,8 @@
-import React from 'react';
-
 const Choose = () => {
     return (
         <div>
             <section className="container-fluid py-5 py-md-5 py-xl-8" style={{ backgroundColor: "#111111" }}>
-                <div className="container overflow-hidden">
+                <div className="container overflow-hidden  ">
                     <div className="row gy-4 gy-md-5 gy-lg-0 align-items-center">
                         <h2 className="display-5 pb-4 text-primary text-center" style={{ fontWeight: "600" }}>
                             <span className='text-light'>Why Choose </span> Me
@@ -27,7 +25,7 @@ const Choose = () => {
                                         priority.
                                     </p>
                                     <a className="btn bsb-btn-2xl btn-primary " href='https://www.linkedin.com/in/bb-khadiza/' target='_blank'>
-                                        <span>Details </span><i class="fa fa-info-circle" aria-hidden="true"></i>
+                                        <span>Details </span><i className="fa fa-info-circle" aria-hidden="true"></i>
                                     </a>
                                 </div>
                             </div>

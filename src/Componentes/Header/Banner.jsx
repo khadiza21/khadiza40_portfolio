@@ -1,12 +1,12 @@
-import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+
+import { Container, } from 'react-bootstrap';
 import banner from '../../assets/banner.gif'
 import './Banner.css';
 
 const Banner = () => {
     return (
         <div style={{ backgroundColor: "black" }}  >
-            <Container className='p-5'>
+            <Container className='py-5  '>
                 <div className="row align-items-center justify-content-between">
                     <div className="col-lg-5">
 
@@ -26,7 +26,7 @@ const Banner = () => {
                             style={{ width: "145px" }}
                         >
                             <span className="me-2">Resume</span>
-                            <i class="fa fa-id-card" aria-hidden="true"></i>
+                            <i className="fa fa-id-card" aria-hidden="true"></i>
                         </a>
 
 

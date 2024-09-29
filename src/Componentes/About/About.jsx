@@ -1,17 +1,17 @@
-import React from 'react';
+
 import about from '../../assets/about.gif'
 import './About.css'
 import { Container } from 'react-bootstrap';
 
 const About = () => {
 
-    const resumeLink = "https://drive.google.com/uc?export=download&id=1ewvxbhlNxy-HqvfFwMw8PfAfYheBr-O7"; 
-    
+    const resumeLink = "https://drive.google.com/uc?export=download&id=1ewvxbhlNxy-HqvfFwMw8PfAfYheBr-O7";
+
 
     return (
         <div >
             <div id='about' className='overflow-hidden p-0 m-0 ' style={{ backgroundColor: "#111111" }}>
-                < Container>
+                < Container className=''>
                     <div className=' py-5'>
                         <h2 className="display-5 pb-4 text-primary text-center" style={{ fontWeight: "600" }}>
                             <span className='text-light'>About </span> Me
@@ -36,31 +36,31 @@ const About = () => {
                                     <span className='text-primary about_name'>Experience:</span> <span className='text-light about_detail'>1+ Years</span>
                                 </p>
                                 <p className='text-white text-justify '>
-                                    Hello! I'm Bibi Khadiza, a passionate MERN Stack web developer with a keen eye for creating seamless and efficient
+                                    Hello! I am Bibi Khadiza, a passionate MERN Stack web developer with a keen eye for creating seamless and efficient
                                     web applications. I specialize in building full-stack solutions that are both scalable and user-friendly.
                                     With a solid foundation in <span className='text-primary'>(MongoDB, Express.js, React, and Node.js).</span>  I bring innovative ideas to life on the web.
                                 </p>
 
-                                <div className='d-flex align-items-center flex-wrap'>
+                                <div className='d-flex align-items-center flex-wrap social-icon'>
 
 
-                                    <a href="https://www.linkedin.com/in/bb-khadiza/" target='blank'>  <button type='btn btn1 mx-2'><i class="fa fa-linkedin-square" aria-hidden="true"></i></button>  </a>
+                                    <a href="https://www.linkedin.com/in/bb-khadiza/" target='blank' className=' '>  <i className="fa fa-linkedin-square" aria-hidden="true"></i> </a>
 
-                                    <a href="https://github.com/khadiza21" target='_blank'>
-                                        <button type='btn btn1 mx-2 '><i class="fa fa-github-square" aria-hidden="true"></i></button>
+                                    <a href="https://github.com/khadiza21" target='_blank' className=' '>
+                                        <i className="fa fa-github-square" aria-hidden="true"></i>
                                     </a>
-                                    <a href="https://wa.me/+8801816260539?text=Hey Sir!/nHow can i help you?" target='_blank'>
-                                        <button type='btn btn1 mx-2 '><i class="fa fa-whatsapp" aria-hidden="true"></i></button>
+                                    <a href="https://wa.me/+8801816260539?text=Hey Sir!/nHow can i help you?" target='_blank' className=''>
+                                        <i className="fa fa-whatsapp" aria-hidden="true"></i>
                                     </a>
-                                    <a href="https://t.me/+8801816260539?text=Hey Sir!/nHow can i help you?" target='_blank'>
-                                        <button type='btn btn1 mx-2 '><i class="fa fa-telegram" aria-hidden="true"></i></button>
+                                    <a href="https://t.me/+8801816260539?text=Hey Sir!/nHow can i help you?" target='_blank' className=' '>
+                                        <i className="fa fa-telegram" aria-hidden="true"></i>
                                     </a>
 
-                                    <a href="https://www.facebook.com/profile.php?id=100075783558238" target='_blank'>
-                                        <button type='btn btn1 mx-2'><i class="fa fa-facebook-official" aria-hidden="true"></i></button></a>
+                                    <a href="https://www.facebook.com/profile.php?id=100075783558238" target='_blank' className=' '>
+                                        <i className="fa fa-facebook-official" aria-hidden="true"></i></a>
 
-                                    <a href="mailto:bibikhadiza474@gmail.com" target="_blank">
-                                        <button type='btn btn1 mx-2'><i class="fa fa-envelope" aria-hidden="true"></i></button></a>
+                                    <a href="mailto:bibikhadiza474@gmail.com" target="_blank" className=''>
+                                        <i className="fa fa-envelope" aria-hidden="true"></i></a>
 
                                 </div>
                                 <a
@@ -71,7 +71,7 @@ const About = () => {
                                     style={{ width: "145px" }}
                                 >
                                     <span className="me-2">Resume</span>
-                                    <i class="fa fa-cloud-download" aria-hidden="true"></i>
+                                    <i className="fa fa-cloud-download" aria-hidden="true"></i>
                                 </a>
                             </div>
                         </div>

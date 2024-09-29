@@ -1,19 +1,25 @@
-button {
+#about .social-icon a {
     --color: #0D6EFD;
     font-family: inherit;
     display: inline-block;
     border-radius: 100%;
+    width: 50px;
+    height: 50px;
     position: relative;
     overflow: hidden;
     border: 2px solid var(--color);
     transition: color .5s;
     z-index: 1;
     font-size: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: 500;
     margin: 0px 10px 10px 10px;
     color: var(--color);
 }
-button:before {
+#about .social-icon a:before {
     content: "";
     position: absolute;
     z-index: -1;
@@ -22,19 +28,19 @@ button:before {
     width: 200px;
     border-radius: 50%;
 }
-button:hover {
+#about .social-icon a:hover {
     color: #fff;
 }
-button:before {
+#about .social-icon a:before {
     top: 100%;
     left: 100%;
     transition: all .7s;
 }
-button:hover:before {
+#about .social-icon a:hover:before {
     top: -30px;
     left: -30px;
 }
-button:active:before {
+#about .social-icon a:active:before {
     background: #3a0ca3;
     transition: background 0s;
 }
@@ -42,7 +48,6 @@ button:active:before {
   margin: 10px 0px;
   
     border-radius: 10px;
-  
     box-shadow: 0 0 49px 15px rgba(13, 110, 253, 0.4);
     
 }

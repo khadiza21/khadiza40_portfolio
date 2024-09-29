@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -9,7 +9,7 @@ const Navbarr = () => {
     return (
         <div>
             <Navbar sticky="top" collapseOnSelect expand="lg" className=" navBar" >
-                <Container className='fw-bold px-5'>
+                <Container className='fw-bold  '>
                     <Navbar.Brand href="#home">
                         <div className='d-flex align-items-center'>
                             <img src={icon} className="rounded navIcon" alt="..." />
