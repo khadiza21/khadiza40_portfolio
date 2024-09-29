@@ -79,12 +79,6 @@ const Portfolio = () => {
                                         </a>
                                     </div>
 
-
-
-
-
-
-
                                     <div className="d-flex justify-content-between mt-1">
                                         <p className="text-light" style={{ fontWeight: "500" }}>{item.title}</p>
                                     </div>
@@ -95,7 +89,7 @@ const Portfolio = () => {
                                     <div className="d-flex justify-content-between mt-1">
                                         <p className="text-light">
                                             <span>Github: </span>
-                                            <a href={item.path} target="blank" className="underline-offset-1">Client</a>
+                                            <a href={item.path} target="blank" className="px-2 underline ">Client</a>
                                             <a href={item.path} target="blank" className="underline-offset-1">Server</a>
                                         </p>
                                         <a href={item.path} target="blank">
