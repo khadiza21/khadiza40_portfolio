@@ -1,6 +1,6 @@
 import Aos from 'aos';
 import { useEffect, useState } from 'react';
-import portfoliio from '../../assets/portfolio/portfolio.webp';
+import portfoliio from '../../assets/portfolio/1.png';
 import './Portfolio.css'
 
 const Portfolio = () => {
@@ -70,14 +70,16 @@ const Portfolio = () => {
                                     style={{ width: "100%" }}>
 
 
-                                    <div className="w-[350px] h-[450px] overflow-hidden">
-                                        <img
-                                            src={item.img}
-                                            alt="No network"
-
-                                            className=" card1 img-fluid rounded-3 "
-                                        />
+                                    <div className="image-wrap">
+                                        <a href="">
+                                            <img
+                                                src={item.img}
+                                                alt="No network"
+                                                className="img-fluid rounded-3 " />
+                                        </a>
                                     </div>
+
+
 
 
 
